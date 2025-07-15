@@ -8,3 +8,9 @@ Aquí encontrarás las tareas, ejercicios, consultas SQL, diagramas y materiales
 
 - [Tarea1](/Readme/Tarea1.md)
 
+
+#### Materiales de aprendizaje: 
+En esta sección incluyo todos los materiales (videos, artículos y documentación) que consulté mientras trabajaba en esta tarea. Los mantengo como referencia para mi yo del futuro. 
+**Aprendizaje: Cómo instalar Visual Studio code en mi computadora**
+
+Sistematts. (2021). Instalar y configurar visual studio code en Windows [Video]. Youtube. https://youtu.be/X_Z7d04x9-E?si=8HVJsOSoYnvwFRl0
