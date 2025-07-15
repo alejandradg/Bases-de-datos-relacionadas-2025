@@ -6,4 +6,5 @@ Este repositorio forma parte de mi aprendizaje en la materia de Bases de Datos R
 
 Aquí encontrarás las tareas, ejercicios, consultas SQL, diagramas y materiales de apoyo que he desarrollado a lo largo del semestre. También incluyo referencias y recursos de estudio que complementan cada entrega. Este espacio busca documentar mi aprendizaje, fomentar buenas prácticas y servir como apoyo para futuras referencias. 
 
-- [Tarea1](/Readme/Tarea1/inv.md)
+- [Tarea1](/Readme/Tarea1.md)
+
