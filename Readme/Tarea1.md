@@ -20,7 +20,7 @@ Contiene información sobre las características físicas y del entorno de una v
 - Equipos del hogar (refrigerador, lavadora, computadora).
 - Percepción de la vivienda (seguridad, acceso a servicios públicos).
 
-**2) Jóvenes**
+**2) Jóvenes:**
 
 Contiene información sobre los jóvenes. Dentro de ella se pueden encontrar datos de: 
 - Edad, sexo, nivel educativo
@@ -28,7 +28,7 @@ Contiene información sobre los jóvenes. Dentro de ella se pueden encontrar dat
 - Participación en organizaciones
 - Experiencia con violencia, delitos y consumo de sustancias.
 
-**3) Hogares**
+**3) Hogares:**
 
 Esta categoría permite identificar condiciones del hogar. 
 - Número de integrantes en el hogar.
@@ -38,7 +38,7 @@ Esta categoría permite identificar condiciones del hogar.
 - Participación en comunidad.
 - Opinión sobre los programas sociales.
 
-**4) Demográficas**
+**4) Demográficas:**
 
 Agrupa información general de los individuos que viven en el hogar: 
 - Edad de los integrantes del hogar
