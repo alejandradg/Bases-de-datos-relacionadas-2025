@@ -11,7 +11,8 @@
 
 Según el INEGI (2014), la base de la Encuesta de Cohesión Social para la prevención de la violencia y delincuencia (ECOPRED) organiza la información en diferentes tablas y bases. La encuesta se divide en 4 bases independientes (demográficas, viviendas, información de jóvenes, y hogares). Esta organización permite analizar factores sociales, económicos y territoriales asociados con conductas delictivas y violentas de los jóvenes. Sin embargo, bases como (demográficas y viviendas) pueden ser utilizadas para responder preguntas de diferentes tópicos; ya que ambas bases son usadas en INEGI para encuestas no relacionadas. 
 
-1) Viviendas: 
+**1) Viviendas:**
+
 Contiene información sobre las características físicas y del entorno de una vivienda. Dentro de ella se pueden encontrar datos como: 
 - Tipo de vivienda.
 - Material predominante de techo, muros y pisos.
@@ -19,14 +20,16 @@ Contiene información sobre las características físicas y del entorno de una v
 - Equipos del hogar (refrigerador, lavadora, computadora).
 - Percepción de la vivienda (seguridad, acceso a servicios públicos).
 
-2) Jóvenes
+**2) Jóvenes**
+
 Contiene información sobre los jóvenes. Dentro de ella se pueden encontrar datos de: 
 - Edad, sexo, nivel educativo
 - Condición laboral y educativa (trabaja, busca trabajo, estudia).
 - Participación en organizaciones
 - Experiencia con violencia, delitos y consumo de sustancias.
 
-3) Hogares
+**3) Hogares**
+
 Esta categoría permite identificar condiciones del hogar. 
 - Número de integrantes en el hogar.
 - Composición familiar.
@@ -35,7 +38,8 @@ Esta categoría permite identificar condiciones del hogar.
 - Participación en comunidad.
 - Opinión sobre los programas sociales.
 
-4) Demográficas
+**4) Demográficas**
+
 Agrupa información general de los individuos que viven en el hogar: 
 - Edad de los integrantes del hogar
 - Sexo
