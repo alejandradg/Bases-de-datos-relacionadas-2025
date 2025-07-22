@@ -7,7 +7,7 @@
 - Subir esta descripción en un archivo markdown o PDF nombrando claramente (Tarea 2 o algo por el estilo).
 
 ### Diagrama entidad-relación
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 ### Relaciones representadas en el diagrama:
 - **Hogares - 1:1 - Viviendas**
