@@ -9,6 +9,7 @@
 ### Diagrama entidad-relación
 ![alt text](image-3.png)
 
+
 ### Relaciones representadas en el diagrama:
 - **Hogares - 1:1 - Viviendas**
 Cada hogar está asociado a una sola vivienda
@@ -18,6 +19,7 @@ En un hogar pueden vivir varios jóvenes
 
 - **Hogares - 1:N - Demográficas**
 Un hogar puede tener múltiples integrantes con carácteristicas demográficas
+
 
 ### Dominio de los atributos por entidad
 
