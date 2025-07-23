@@ -8,6 +8,7 @@ Aquí encontrarás las tareas, ejercicios, consultas SQL, diagramas y materiales
 
 - [Tarea1](/Readme/Tarea1.md)
 - [Tarea2](/Readme/Tarea2.md)
+- [Tarea3](/Readme/Tarea3.md)
 
 
 
