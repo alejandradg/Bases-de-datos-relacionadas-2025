@@ -1,12 +1,11 @@
 # Base de Datos Relacionales
-## Tarea 3
+## Tarea 4
 ### Instrucciones
 
-- Instalen un SGBD
-- Instalen DBeaver
-- Crea la base de datos y tablas correspondientes a su base de datos
-- Incluye al menos 5 registros en tu base de datos (en total)
-
+- Crea tu base de datos y tablas correspondientes a partir de tus tareas de los modelos e-r y relacional.
+- Incluye al menos 20 registros en tu base de datos
+- Sube tu archivo de creación de base de datos a tu repositorio con un nombre claro en formato SQL (o equivalente)
+- Tu archivo se ejecuta completamente y sin ningún error en su SGBD correspondiente.
 
 ```postgresql
 
