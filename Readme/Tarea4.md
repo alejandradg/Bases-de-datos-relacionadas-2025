@@ -64,7 +64,22 @@ INSERT INTO vivienda VALUES
 (2, 'Departamento', 'Concreto armado', TRUE, FALSE),
 (3, 'Casa dúplex', 'Ladrillo', FALSE, TRUE),
 (4, 'Cuarto en vecindad', 'Madera y lámina', TRUE, FALSE),
-(5, 'Casa rural', 'Adobe', FALSE, FALSE);
+(5, 'Casa rural', 'Adobe', FALSE, FALSE),
+(6, 'Casa independiente', 'Block', TRUE, TRUE),
+(7, 'Departamento', 'Concreto armado', TRUE, TRUE),
+(8, 'Casa dúplex', 'Ladrillo rojo', FALSE, TRUE),
+(9, 'Casa móvil', 'Metal y madera', TRUE, FALSE),
+(10, 'Casa pequeña', 'Madera', FALSE, FALSE),
+(11, 'Casa urbana', 'Block', TRUE, TRUE),
+(12, 'Condominio', 'Concreto armado', TRUE, TRUE),
+(13, 'Casa dúplex', 'Tabique', FALSE, TRUE),
+(14, 'Casa improvisada', 'Cartón', TRUE, FALSE),
+(15, 'Rancho', 'Adobe y palma', FALSE, FALSE),
+(16, 'Villa', 'Concreto', TRUE, TRUE),
+(17, 'Loft', 'Concreto ligero', TRUE, TRUE),
+(18, 'Cabaña', 'Madera', FALSE, FALSE),
+(19, 'Casa antigua', 'Piedra', TRUE, FALSE),
+(20, 'Edificio multifamiliar', 'Concreto', TRUE, TRUE);
 
 ### Insertar registros en hogares
 INSERT INTO hogares VALUES
@@ -72,23 +87,69 @@ INSERT INTO hogares VALUES
 (102, 2, 3, 'Extendida', 'Media participación'),
 (103, 3, 4, 'Nuclear', 'Baja participación'),
 (104, 4, 2, 'Monoparental', 'Sin participación'),
-(105, 5, 6, 'Extendida', 'Alta participación');
+(105, 5, 6, 'Extendida', 'Alta participación'),
+(106, 6, 4, 'Nuclear', 'Media participación'),
+(107, 7, 3, 'Nuclear', 'Alta participación'),
+(108, 8, 5, 'Extendida', 'Baja participación'),
+(109, 9, 2, 'Monoparental', 'Ninguna'),
+(110, 10, 3, 'Nuclear', 'Alta participación'),
+(111, 11, 6, 'Nuclear', 'Media participación'),
+(112, 12, 4, 'Extendida', 'Baja participación'),
+(113, 13, 5, 'Monoparental', 'Alta participación'),
+(114, 14, 3, 'Nuclear', 'Media participación'),
+(115, 15, 4, 'Extendida', 'Baja participación'),
+(116, 16, 2, 'Monoparental', 'Ninguna'),
+(117, 17, 3, 'Nuclear', 'Alta participación'),
+(118, 18, 6, 'Nuclear', 'Media participación'),
+(119, 19, 4, 'Extendida', 'Baja participación'),
+(120, 20, 5, 'Monoparental', 'Alta participación');
 
 ### Insertar registros en jovenes
 INSERT INTO jovenes VALUES
 (201, 101, 17, 'Bachillerato', 'Estudiante', 'Club juvenil'),
-(202, 101, 19, 'Universidad', 'Trabaja medio tiempo', 'Ninguna'),
-(203, 102, 16, 'Secundaria', 'Estudiante', 'Equipo deportivo'),
+(202, 102, 19, 'Universidad', 'Trabaja medio tiempo', 'Ninguna'),
+(203, 103, 16, 'Secundaria', 'Estudiante', 'Equipo deportivo'),
 (204, 104, 20, 'Universidad', 'Busca trabajo', 'Voluntariado'),
-(205, 105, 18, 'Preparatoria', 'Trabaja', 'Ninguna');
+(205, 105, 18, 'Preparatoria', 'Trabaja', 'Ninguna'),
+(206, 106, 17, 'Secundaria', 'Estudiante', 'Iglesia'),
+(207, 107, 19, 'Universidad', 'Estudia y trabaja', 'Club juvenil'),
+(208, 108, 18, 'Preparatoria', 'Busca trabajo', 'Ninguna'),
+(209, 109, 17, 'Bachillerato', 'Estudiante', 'Voluntariado'),
+(210, 110, 16, 'Secundaria', 'Estudiante', 'Ninguna'),
+(211, 111, 18, 'Preparatoria', 'Trabaja', 'Deportes'),
+(212, 112, 20, 'Universidad', 'Estudia y trabaja', 'Ninguna'),
+(213, 113, 19, 'Universidad', 'Estudia', 'Grupo ambiental'),
+(214, 114, 17, 'Bachillerato', 'Estudiante', 'Ninguna'),
+(215, 115, 16, 'Secundaria', 'Estudiante', 'Música'),
+(216, 116, 18, 'Preparatoria', 'Trabaja', 'Ninguna'),
+(217, 117, 17, 'Bachillerato', 'Estudiante', 'Club de ciencia'),
+(218, 118, 16, 'Secundaria', 'Estudiante', 'Voluntariado'),
+(219, 119, 19, 'Universidad', 'Estudia', 'Iglesia'),
+(220, 120, 18, 'Preparatoria', 'Busca trabajo', 'Ninguna');
 
 ### Insertar registros en demograficas
 INSERT INTO demograficas VALUES
 (301, 101, 'Padre', TRUE, 'Trabaja', TRUE, 'Secundaria'),
-(302, 101, 'Madre', TRUE, 'Ama de casa', FALSE, 'Primaria'),
-(303, 102, 'Hermano', FALSE, 'Estudiante', TRUE, 'Preparatoria'),
+(302, 102, 'Madre', TRUE, 'Ama de casa', FALSE, 'Primaria'),
+(303, 103, 'Hermano', FALSE, 'Estudiante', TRUE, 'Preparatoria'),
 (304, 104, 'Tía', FALSE, 'Trabaja', FALSE, 'Secundaria'),
-(305, 105, 'Abuela', TRUE, 'Jubilada', FALSE, 'Primaria');
+(305, 105, 'Abuela', TRUE, 'Jubilada', FALSE, 'Primaria'),
+(306, 106, 'Padre', TRUE, 'Trabaja', TRUE, 'Universidad'),
+(307, 107, 'Madre', TRUE, 'Ama de casa', FALSE, 'Primaria'),
+(308, 108, 'Hermana', FALSE, 'Estudiante', FALSE, 'Preparatoria'),
+(309, 109, 'Tío', TRUE, 'Trabaja', TRUE, 'Universidad'),
+(310, 110, 'Primo', FALSE, 'Estudiante', TRUE, 'Secundaria'),
+(311, 111, 'Padre', TRUE, 'Trabaja', TRUE, 'Secundaria'),
+(312, 112, 'Madre', TRUE, 'Ama de casa', FALSE, 'Primaria'),
+(313, 113, 'Hermano', FALSE, 'Estudiante', TRUE, 'Preparatoria'),
+(314, 114, 'Tía', FALSE, 'Trabaja', FALSE, 'Secundaria'),
+(315, 115, 'Abuela', TRUE, 'Jubilada', FALSE, 'Primaria'),
+(316, 116, 'Padre', TRUE, 'Trabaja', TRUE, 'Universidad'),
+(317, 117, 'Madre', TRUE, 'Ama de casa', FALSE, 'Primaria'),
+(318, 118, 'Hermana', FALSE, 'Estudiante', FALSE, 'Preparatoria'),
+(319, 119, 'Tío', TRUE, 'Trabaja', TRUE, 'Universidad'),
+(320, 120, 'Primo', FALSE, 'Estudiante', TRUE, 'Secundaria');
+
 ```
 
 
